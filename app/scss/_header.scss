@@ -1,0 +1,54 @@
+.header {
+
+
+ nav { 
+
+   padding: 24px;
+
+ }
+
+ &__logo{
+
+  .img {
+
+     }
+
+  }
+
+ &__menu { 
+
+
+/* Frame 1 
+
+position: relative;
+width: 45px;
+height: 38px;
+
+background: #FFFFFF;
+
+*/
+
+ /*  display: inline-block;
+   width: 26px;
+   height: 4px;
+   background-color: $darkBlue;
+   */
+
+   span.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow; 
+
+ &:not(:last-child) {
+     margin-bottom: 3px; 
+  
+    }
+  
+   }
+
+  }
+
+}
